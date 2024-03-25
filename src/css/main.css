@@ -11,8 +11,8 @@ body {
 }
 body {
   font-family: "HK Grotesk", sans-serif;
-  color: #222;
-  background-color: #fff;
+  color: #fff;
+  background-color: #353535;
   font-size: 14px;
   line-height: 1.7;
   display: flex;
@@ -25,12 +25,12 @@ img {
 ::selection {
   text-shadow: none;
   color: #000;
-  background: #fff9cd;
+  background: #fff;
 }
 ::-moz-selection {
   text-shadow: none;
   color: #000;
-  background: #fff9cd;
+  background: #fff;
 }
 /* Loader */
 html {
@@ -64,11 +64,6 @@ html.loaded body {
   opacity: 1;
 }
 
-/*  --------------------------------------------
-
-	2. TYPOGRAPHY (@typo) - typographic styles
-	
-    -------------------------------------------- */
 h1,
 h2,
 h3,
@@ -120,11 +115,6 @@ p:last-child {
   color: #fff;
 }
 
-/*  --------------------------------------------
-
-	3. HELPERS (@helpers) - shorthand helper styles
-	
-    -------------------------------------------- */
 .rounded {
   border-radius: 50%;
 }
@@ -162,12 +152,6 @@ p:last-child {
   font-size: 15px;
 }
 
-/*  --------------------------------------------
-
-	2. LAYOUT (@layout) - layout styles
-	
-    -------------------------------------------- */
-
 /* CONTENT */
 .content-wrap {
   width: 80%;
@@ -184,15 +168,6 @@ p:last-child {
 .profile-image {
   max-height: 92px;
 }
-.profile-image.is-outside {
-  margin-top: -50%;
-  margin-bottom: 0;
-}
-
-/* LOGO */
-.logo {
-  margin-bottom: 24px;
-}
 
 /* FRAMED */
 .is-framed:after {
@@ -206,12 +181,6 @@ p:last-child {
   bottom: 0;
   border: 15px solid #111;
 }
-
-/*  --------------------------------------------
-
-	5. ELEMENTS (@elements) - common used elements
-	
-    -------------------------------------------- */
 
 /* SOCIAL LINKS */
 .social-link {
@@ -242,288 +211,26 @@ html a.social-link:hover:before {
   background: #444;
   border-color: transparent;
 }
-.social-link.facebook:before {
-  content: "\e825";
-  color: #3c5fac;
-  border-color: #3c5fac;
-}
-.social-link.twitter:before {
-  content: "\e826";
-  color: #5ec3df;
-  border-color: #5ec3df;
-}
-.social-link.flickr:before {
-  content: "\e835";
-  color: #ff0084;
-  border-color: #ff0084;
-}
-.social-link.rss:before {
-  content: "\e82f";
-  color: #ff9900;
-  border-color: #ff9900;
-}
-.social-link.dribbble:before {
-  content: "\e82c";
-  color: #ea4c89;
-  border-color: #ea4c89;
-}
-.social-link.lastfm:before {
-  content: "\e82e";
-  color: #d51007;
-  border-color: #d51007;
-}
 .social-link.linkedin:before {
   content: "\e827";
   color: #2089b5;
   border-color: #2089b5;
-}
-.social-link.vimeo:before {
-  content: "\e830";
-  color: #0dadd6;
-  border-color: #0dadd6;
-}
-.social-link.google-plus:before {
-  content: "\e801";
-  color: #db4437;
-  border-color: #db4437;
-}
-.social-link.forrst:before {
-  content: "\e831";
-  color: #5b9a68;
-  border-color: #5b9a68;
-}
-.social-link.skype:before {
-  content: "\e832";
-  color: #00aff0;
-  border-color: #00aff0;
-}
-.social-link.tumblr:before {
-  content: "\e836";
-  color: #2c4762;
-  border-color: #2c4762;
-}
-.social-link.behance:before {
-  content: "\e82b";
-  color: #3878f6;
-  border-color: #3878f6;
-}
-.social-link.blogger:before {
-  content: "\e837";
-  color: #fc9947;
-  border-color: #fc9947;
-}
-.social-link.delicious:before {
-  content: "\e838";
-  color: #3274d1;
-  border-color: #3274d1;
-}
-.social-link.digg:before {
-  content: "\e839";
-  color: #205891;
-  border-color: #205891;
 }
 .social-link.github:before {
   content: "\e82a";
   color: #222;
   border-color: #222;
 }
-.social-link.wordpress:before {
-  content: "\e83b";
-  color: #0083b3;
-  border-color: #0083b3;
-}
-.social-link.youtube:before {
-  content: "\e834";
-  color: #c8312b;
-  border-color: #c8312b;
-}
-.social-link.pinterest:before {
-  content: "\e829";
-  color: #cb2027;
-  border-color: #cb2027;
-}
-.social-link.instagram:before {
-  content: "\e8cc";
-  color: #e1306c;
-  border-color: #e1306c;
-}
-.social-link.stack-overflow:before {
-  content: "\e83c";
-  color: #f90;
-  border-color: #f90;
-}
-.social-link.foursquare:before {
-  content: "\e83d";
-  color: #009fe0;
-  border-color: #009fe0;
-}
-.social-link.xing:before {
-  content: "\e83e";
-  color: #006567;
-  border-color: #006567;
-}
-.social-link.weibo:before {
-  content: "\e83f";
-  color: #e64141;
-  border-color: #e64141;
-}
-.social-link.soundcloud:before {
-  content: "\e840";
-  color: #fa3219;
-  border-color: #fa3219;
-}
-.social-link.fivehundredpx:before {
-  content: "\e841";
-  color: #111;
-  border-color: #111;
-}
-.social-link.slideshare:before {
-  content: "\e842";
-  color: #ed9d2c;
-  border-color: #ed9d2c;
-}
-.social-link.vine:before {
-  content: "\e863";
-  color: #00bf8f;
-  border-color: #00bf8f;
-}
-.social-link.vkontakte:before {
-  content: "\e846";
-  color: #6383a8;
-  border-color: #6383a8;
-}
-.social-link.paypal:before {
-  content: "\e8b9";
-  color: #013791;
-  border-color: #013791;
-}
-.social-link.spotify:before {
-  content: "\e803";
-  color: #85bb24;
-  border-color: #85bb24;
-}
-.social-link.snapchat:before {
-  content: "\f2ac";
-  color: #fffc00;
-  border-color: #fffc00;
-}
-.social-link.imdb:before {
-  content: "\f2d8";
-  color: #e6b91e;
-  border-color: #e6b91e;
-}
 .social-link.email:before {
   content: "\e87e";
   color: #222;
   border-color: #222;
 }
-.social-link.facebook:hover:before {
-  background-color: #3c5fac;
-}
-.social-link.twitter:hover:before {
-  background-color: #5ec3df;
-}
-.social-link.flickr:hover:before {
-  background-color: #ff0084;
-}
-.social-link.rss:hover:before {
-  background-color: #ff9900;
-}
-.social-link.dribbble:hover:before {
-  background-color: #ea4c89;
-}
-.social-link.lastfm:hover:before {
-  background-color: #d51007;
-}
 .social-link.linkedin:hover:before {
   background-color: #2089b5;
 }
-.social-link.vimeo:hover:before {
-  background-color: #0dadd6;
-}
-.social-link.google-plus:hover:before {
-  background-color: #db4437;
-}
-.social-link.forrst:hover:before {
-  background-color: #5b9a68;
-}
-.social-link.skype:hover:before {
-  background-color: #00aff0;
-}
-.social-link.picassa:hover:before {
-  background-color: #ffd34e;
-}
-.social-link.youtube:hover:before {
-  background-color: #c8312b;
-}
-.social-link.pinterest:hover:before {
-  background-color: #cb2027;
-}
-.social-link.tumblr:hover:before {
-  background-color: #2c4762;
-}
-.social-link.behance:hover:before {
-  background-color: #3878f6;
-}
-.social-link.blogger:hover:before {
-  background-color: #fc9947;
-}
-.social-link.delicious:hover:before {
-  background-color: #3274d1;
-}
-.social-link.digg:hover:before {
-  background-color: #205891;
-}
-.social-link.friendfeed:hover:before {
-  background-color: #2f72c4;
-}
 .social-link.github:hover:before {
   background-color: #222;
-}
-.social-link.wordpress:hover:before {
-  background-color: #0083b3;
-}
-.social-link.instagram:hover:before {
-  background-color: #e1306c;
-}
-.social-link.stack-overflow:hover:before {
-  background-color: #f90;
-}
-.social-link.foursquare:hover:before {
-  background-color: #009fe0;
-}
-.social-link.xing:hover:before {
-  background-color: #006567;
-}
-.social-link.weibo:hover:before {
-  background-color: #e64141;
-}
-.social-link.soundcloud:hover:before {
-  background-color: #fa3219;
-}
-.social-link.fivehundredpx:hover:before {
-  background-color: #222;
-}
-.social-link.slideshare:hover:before {
-  background-color: #ed9d2c;
-}
-.social-link.vine:hover:before {
-  background-color: #00bf8f;
-}
-.social-link.vkontakte:hover:before {
-  background-color: #6383a8;
-}
-.social-link.paypal:hover:before {
-  background-color: #013791;
-}
-.social-link.spotify:hover:before {
-  background-color: #85bb24;
-}
-.social-link.snapchat:hover:before {
-  background-color: #fffc00;
-}
-.social-link.imdb:hover:before {
-  background-color: #e6b91e;
 }
 .social-link.email:hover:before {
   background-color: #222;
@@ -591,10 +298,9 @@ html a.social-link:hover:before {
   border-color: transparent !important;
 }
 
-/* LINK HOVER EFFECTS */
-
-/* LINK 1 */
-.link-1 {
+/* Efeito sobre o link */
+/* LINK */
+.link {
   position: relative;
   text-decoration: none;
   display: inline-block;
@@ -602,7 +308,7 @@ html a.social-link:hover:before {
   padding: 0 1px;
   transition: color ease 0.3s;
 }
-.link-1:after {
+.link:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -614,197 +320,12 @@ html a.social-link:hover:before {
   background-color: #222;
   transition: all ease 0.3s;
 }
-.link-1:hover {
-  color: #fff;
+.link:hover {
+  color: #111;
 }
-.link-1:hover:after {
+.link:hover:after {
+  background: #fff;
   height: 100%;
-}
-/* light links */
-.link-1.light:after {
-  background: #fff;
-}
-.link-1.light:hover {
-  color: #111;
-}
-/* blue links */
-.link-1.blue:after {
-  background: #0100ff;
-}
-/* green links */
-.link-1.green:after {
-  background: #00b388;
-}
-/* red links */
-.link-1.red:after {
-  background: #ff322e;
-}
-/* yellow links */
-.link-1.yellow:after {
-  background: #ffcc2f;
-}
-/* pink links */
-.link-1.pink:after {
-  background: #f94877;
-}
-/* purple links */
-.link-1.purple:after {
-  background: #554488;
-}
-/* tango links */
-.link-1.tango:after {
-  background: #e1523d;
-}
-/* aqua links */
-.link-1.aqua:after {
-  background: #0099ff;
-}
-/* navy links */
-.link-1.navy:after {
-  background: #414f5a;
-}
-/* leather links */
-.link-1.leather:after {
-  background: #ab9878;
-}
-/* azure links */
-.link-1.azure:after {
-  background: #02acab;
-}
-/* peach links */
-.link-1.peach:after {
-  background: #fea680;
-}
-/* hot-pink links */
-.link-1.hot-pink:after {
-  background: #fe65b7;
-}
-/* coral links */
-.link-1.coral:after {
-  background: #f63341;
-}
-/* grey links */
-.link-1.grey:after {
-  background: #aab8c1;
-}
-
-/* LINK 2 */
-.link-2 {
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-  color: inherit;
-  padding: 0 1px;
-  transition: color ease 0.3s;
-}
-.link-2:before,
-.link-2:after {
-  content: "";
-  position: absolute;
-  background-color: #222;
-  z-index: -1;
-  height: 2px;
-}
-.link-2:before {
-  width: 0%;
-  left: 0;
-  bottom: 0;
-  transition: width ease 0.4s;
-}
-.link-2:after {
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  transition: all ease 0.6s;
-}
-.link-2:hover:before {
-  width: 100%;
-}
-.link-2:hover:after {
-  left: 100%;
-  width: 0%;
-  transition: all ease 0.2s;
-}
-/* light links */
-.link-2.light:before,
-.link-2.light:after {
-  background: #fff;
-  color: #111;
-}
-/* blue links */
-.link-2.blue:before,
-.link-2.blue:after {
-  background: #0100ff;
-}
-/* green links */
-.link-2.green:before,
-.link-2.green:after {
-  background: #00b388;
-}
-/* red links */
-.link-2.red:before,
-.link-2.red:after {
-  background: #ff322e;
-}
-/* yellow links */
-.link-2.yellow:before,
-.link-2.yellow:after {
-  background: #ffcc2f;
-}
-/* pink links */
-.link-2.pink:before,
-.link-2.pink:after {
-  background: #f94877;
-}
-/* purple links */
-.link-2.purple:before,
-.link-2.purple:after {
-  background: #554488;
-}
-/* tango links */
-.link-2.tango:before,
-.link-2.tango:after {
-  background: #e1523d;
-}
-/* aqua links */
-.link-2.aqua:before,
-.link-2.aqua:after {
-  background: #0099ff;
-}
-/* navy links */
-.link-2.navy:before,
-.link-2.navy:after {
-  background: #414f5a;
-}
-/* leather links */
-.link-2.leather:before,
-.link-2.leather:after {
-  background: #ab9878;
-}
-/* azure links */
-.link-2.azure:before,
-.link-2.azure:after {
-  background: #02acab;
-}
-/* peach links */
-.link-2.peach:before,
-.link-2.peach:after {
-  background: #fea680;
-}
-/* hot-pink links */
-.link-2.hot-pink:before,
-.link-2.hot-pink:after {
-  background: #fe65b7;
-}
-/* coral links */
-.link-2.coral:before,
-.link-2.coral:after {
-  background: #f63341;
-}
-/* grey links */
-.link-2.grey:before,
-.link-2.grey:after {
-  background: #aab8c1;
 }
 
 /* BUTTONS */
@@ -876,102 +397,6 @@ html a.social-link:hover:before {
 .button.light:active {
   color: #111 !important;
 }
-/* blue buttons */
-.button.blue {
-  border-color: #0100ff;
-  color: #0100ff;
-}
-.button.blue:after {
-  background: #0100ff;
-}
-/* green buttons */
-.button.green {
-  border-color: #00b388;
-  color: #00b388;
-}
-.button.green:after {
-  background: #00b388;
-}
-/* red buttons */
-.button.red {
-  border-color: #ff322e;
-  color: #ff322e;
-}
-.button.red:after {
-  background: #ff322e;
-}
-/* yellow buttons */
-.button.yellow {
-  border-color: #ffcc2f;
-  color: #ffcc2f;
-}
-.button.yellow:after {
-  background: #ffcc2f;
-}
-/* pink buttons */
-.button.pink {
-  border-color: #f94877;
-  color: #f94877;
-}
-.button.pink:after {
-  background: #f94877;
-}
-/* purple buttons */
-.button.purple {
-  border-color: #554488;
-  color: #554488;
-}
-.button.purple:after {
-  background: #554488;
-}
-/* tango buttons */
-.button.tango {
-  border-color: #e1523d;
-  color: #e1523d;
-}
-.button.tango:after {
-  background: #e1523d;
-}
-/* aqua buttons */
-.button.aqua {
-  border-color: #0099ff;
-  color: #0099ff;
-}
-.button.aqua:after {
-  background: #0099ff;
-}
-/* navy buttons */
-.button.navy {
-  border-color: #414f5a;
-  color: #414f5a;
-}
-.button.navy:after {
-  background: #414f5a;
-}
-/* leather buttons */
-.button.leather {
-  border-color: #ab9878;
-  color: #ab9878;
-}
-.button.leather:after {
-  background: #ab9878;
-}
-/* azure buttons */
-.button.azure {
-  border-color: #02acab;
-  color: #02acab;
-}
-.button.azure:after {
-  background: #02acab;
-}
-/* peach buttons */
-.button.peach {
-  border-color: #fea680;
-  color: #fea680;
-}
-.button.peach:after {
-  background: #fea680;
-}
 /* hot-pink buttons */
 .button.hot-pink {
   border-color: #fe65b7;
@@ -980,22 +405,7 @@ html a.social-link:hover:before {
 .button.hot-pink:after {
   background: #fe65b7;
 }
-/* coral buttons */
-.button.coral {
-  border-color: #f63341;
-  color: #f63341;
-}
-.button.coral:after {
-  background: #f63341;
-}
-/* grey buttons */
-.button.grey {
-  border-color: #aab8c1;
-  color: #aab8c1;
-}
-.button.grey:after {
-  background: #aab8c1;
-}
+
 /* icons in buttons */
 .button i {
   display: inline-block;
@@ -1009,142 +419,23 @@ html a.social-link:hover:before {
   font-size: 120%;
 }
 
-/* HIGHLIGHT TEXT */
+/* Texto Destacado */
 .highlight {
   display: inline-block;
   padding: 0 10px;
   color: #fff;
   background: #111;
 }
-/* light highlights */
-.highlight.light {
-  background: #fff;
-  color: #111;
-}
-/* blue highlights */
-.highlight.blue {
-  background: #0100ff;
-}
-/* green highlights */
-.highlight.green {
-  background: #00b388;
-}
-/* red highlights */
-.highlight.red {
-  background: #ff322e;
-}
-/* yellow highlights */
-.highlight.yellow {
-  background: #ffcc2f;
-}
-/* pink highlights */
-.highlight.pink {
-  background: #f94877;
-}
-/* purple highlights */
-.highlight.purple {
-  background: #554488;
-}
-/* tango highlights */
-.highlight.tango {
-  background: #e1523d;
-}
-/* aqua highlights */
-.highlight.aqua {
-  background: #0099ff;
-}
-/* navy highlights */
-.highlight.navy {
-  background: #414f5a;
-}
-/* leather highlights */
-.highlight.leather {
-  background: #ab9878;
-}
-/* azure highlights */
-.highlight.azure {
-  background: #02acab;
-}
-/* peach highlights */
-.highlight.peach {
-  background: #fea680;
-}
-/* hot-pink highlights */
-.highlight.hot-pink {
-  background: #fe65b7;
-}
-/* coral highlights */
-.highlight.coral {
-  background: #f63341;
-}
-/* grey highlights */
-.highlight.grey {
-  background: #aab8c1;
+.highlight.orange {
+  background: #F76004;
 }
 
-/* COLORED TEXT */
-/* blue text */
-.text.blue {
-  color: #0100ff;
-}
-/* green text */
-.text.green {
-  color: #00b388;
-}
-/* red text */
-.text.red {
-  color: #ff322e;
-}
-/* yellow text */
-.text.yellow {
-  color: #ffcc2f;
-}
-/* pink text */
+/* Textos coloridos*/
 .text.pink {
-  color: #f94877;
-}
-/* purple text */
-.text.purple {
-  color: #554488;
-}
-/* tango text */
-.text.tango {
-  color: #e1523d;
-}
-/* aqua text */
-.text.aqua {
-  color: #0099ff;
-}
-/* navy text */
-.text.navy {
-  color: #414f5a;
-}
-/* leather text */
-.text.leather {
-  color: #ab9878;
-}
-/* azure text */
-.text.azure {
-  color: #02acab;
-}
-/* peach text */
-.text.peach {
-  color: #fea680;
-}
-/* hot-pink text */
-.text.hot-pink {
   color: #fe65b7;
 }
-/* coral text */
-.text.coral {
-  color: #f63341;
-}
-/* grey text */
-.text.grey {
-  color: #aab8c1;
-}
 
-/* TYPED TEXT */
+/* Texto Animado */
 #typed-strings {
   display: none;
 }
@@ -1175,12 +466,6 @@ html a.social-link:hover:before {
     opacity: 1;
   }
 }
-
-/*  --------------------------------------------
-
-	6. MEDIA QUERIES (@media) - base html elements
-	
-    -------------------------------------------- */
 
 /* TABLETS */
 @media screen and (min-width: 768px) {

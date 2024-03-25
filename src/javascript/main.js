@@ -1,9 +1,4 @@
-/*
-	Name: LazyGuy
-	Description: Personal Landing Page
-	Version: 1.0
-	Author: pixelwars
-*/
+//Codigo de animção tirado da internet
 
 (function () {
   "use strict";
