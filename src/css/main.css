@@ -134,24 +134,6 @@ p:last-child {
   font-weight: bold;
 }
 
-/* SMALL TYPO */
-.is-small-typo h1 {
-  font-size: 24px;
-  line-height: 1.3;
-}
-.is-small-typo {
-  font-size: 14px;
-}
-
-/* MEDIUM TYPO */
-.is-medium-typo h1 {
-  font-size: 36px;
-  line-height: 1.2;
-}
-.is-medium-typo {
-  font-size: 15px;
-}
-
 /* CONTENT */
 .content-wrap {
   width: 80%;
@@ -169,7 +151,7 @@ p:last-child {
   max-height: 92px;
 }
 
-/* FRAMED */
+/* FRAME */
 .is-framed:after {
   content: "";
   position: fixed;
@@ -180,122 +162,6 @@ p:last-child {
   right: 0;
   bottom: 0;
   border: 15px solid #111;
-}
-
-/* SOCIAL LINKS */
-.social-link {
-  display: inline-block;
-  margin: 8px 2px 8px 0;
-  text-decoration: none;
-  user-select: none;
-}
-.social-link:active {
-  transform: scale(0.8);
-}
-.social-link:before {
-  display: inline-block;
-  padding: 0;
-  text-align: center;
-  font-size: 14px;
-  font-family: "fontello";
-  width: 32px;
-  line-height: 32px;
-  color: #555;
-  border: 1px solid #eee;
-  border-radius: 50%;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-html a.social-link:hover:before {
-  color: #fff;
-  background: #444;
-  border-color: transparent;
-}
-.social-link.linkedin:before {
-  content: "\e827";
-  color: #2089b5;
-  border-color: #2089b5;
-}
-.social-link.github:before {
-  content: "\e82a";
-  color: #222;
-  border-color: #222;
-}
-.social-link.email:before {
-  content: "\e87e";
-  color: #222;
-  border-color: #222;
-}
-.social-link.linkedin:hover:before {
-  background-color: #2089b5;
-}
-.social-link.github:hover:before {
-  background-color: #222;
-}
-.social-link.email:hover:before {
-  background-color: #222;
-}
-
-/* Big Social Icons */
-.is-social-big .social-link:before {
-  font-size: 16px;
-  width: 42px;
-  line-height: 42px;
-}
-/* Minmal Social Icons */
-.is-social-minimal .social-link:before {
-  border: none !important;
-}
-/* Minmal Social Icons */
-.is-social-minimal-dark .social-link,
-.is-social-minimal-light .social-link,
-.is-social-light-borders .social-link,
-.is-social-dark-borders .social-link,
-.is-social-solid .social-link {
-  color: inherit;
-}
-/* Minimal Dark Social Icons */
-.is-social-minimal-dark .social-link:before {
-  border: none !important;
-  color: inherit;
-}
-/* Minimal Light Social Icons */
-.is-social-minimal-light .social-link:before {
-  border: none !important;
-  color: rgba(0, 0, 0, 0.25);
-}
-.is-text-light .is-social-minimal-light .social-link:not(:hover):before {
-  color: rgba(255, 255, 255, 0.3);
-}
-/* Solid Social Icons */
-.is-social-solid .social-link:before {
-  border: none !important;
-  color: inherit;
-}
-.is-social-solid .social-link:not(:hover):before {
-  background: rgba(0, 0, 0, 0.04);
-}
-.is-text-light .is-social-solid .social-link:not(:hover):before {
-  background: rgba(255, 255, 255, 0.08);
-}
-/* Light Borders Social Icons */
-.is-social-light-borders .social-link:before {
-  border-color: rgba(0, 0, 0, 0.09) !important;
-  color: inherit;
-}
-.is-text-light .is-social-light-borders .social-link:before {
-  border-color: rgba(255, 255, 255, 0.13) !important;
-}
-/* Dark Borders Social Icons */
-.is-social-dark-borders .social-link:before {
-  border-color: rgba(0, 0, 0, 0.75) !important;
-  color: inherit;
-}
-.is-text-light .is-social-dark-borders .social-link:before {
-  border-color: rgba(255, 255, 255, 0.8) !important;
-}
-.is-social-dark-borders .social-link:hover:before {
-  border-color: transparent !important;
 }
 
 /* Efeito sobre o link */
@@ -328,13 +194,13 @@ html a.social-link:hover:before {
   height: 100%;
 }
 
-/* BUTTONS */
+/* Butões */
 .button {
-  border: 2px solid #222;
+  border: 2px solid #fff;
   font-family: inherit;
   font-size: 16px;
   line-height: 1;
-  color: #222;
+  color: #fff;
   text-decoration: none;
   background: none;
   cursor: pointer;
@@ -346,28 +212,12 @@ html a.social-link:hover:before {
   transition: all 0.3s;
   overflow: hidden;
 }
-.button:only-child {
-  margin-right: 0px;
-}
-.button.small {
-  font-size: 13px;
-  padding: 8px 20px;
-}
-.button.rounded {
-  border-radius: 50px;
-}
-.button.soft-rounded {
-  border-radius: 5px;
-}
-.button.rounded-soft {
-  border-radius: 4px;
-}
 .button:after {
   width: 0%;
   height: 100%;
   top: 0;
   left: 0;
-  background: #222;
+  background: #fff;
   content: "";
   position: absolute;
   z-index: -1;
@@ -375,7 +225,7 @@ html a.social-link:hover:before {
 }
 .button:hover,
 .button:active {
-  color: #fff !important;
+  color: #111 !important;
 }
 .button:active {
   transition: all 0.1s;
@@ -386,40 +236,8 @@ html a.social-link:hover:before {
 .button:active:after {
   width: 100%;
 }
-/* light buttons */
-.button.light {
-  border-color: #fff;
-}
-.button.light:after {
-  background: #fff;
-}
-.button.light:hover,
-.button.light:active {
-  color: #111 !important;
-}
-/* hot-pink buttons */
-.button.hot-pink {
-  border-color: #fe65b7;
-  color: #fe65b7;
-}
-.button.hot-pink:after {
-  background: #fe65b7;
-}
 
-/* icons in buttons */
-.button i {
-  display: inline-block;
-  margin-right: 5px;
-}
-.button i.right {
-  margin-right: 0;
-  margin-left: 5px;
-}
-.button i:before {
-  font-size: 120%;
-}
-
-/* Texto Destacado */
+/* Textos Destacados */
 .highlight {
   display: inline-block;
   padding: 0 10px;
@@ -434,6 +252,8 @@ html a.social-link:hover:before {
 .text.pink {
   color: #fe65b7;
 }
+
+/* ------------------------------------------------------ */
 
 /* Texto Animado */
 #typed-strings {
