@@ -1,9 +1,9 @@
 <div align=center>
   
-  <img width="400" height="150" src="src/img/readmelogo.png">
+  <img width="400" height="130" src="src/img/readmelogo.png">
   
   <h1>
-    🚀 Bem Vindos a minha pagina pessoal ⚡
+    🚀 Bem Vindo a minha pagina pessoal ⚡
     <br>
     Html + Css + Js
   </h1>
