@@ -1,6 +1,6 @@
 <div align=center>
   
-  <img width="400" height="150" src="src/img/technologieslogo.png">
+  <img width="400" height="150" src="src/img/readmelogo.png">
   
   <h1>
     🚀 Bem Vindos a minha pagina pessoal ⚡
