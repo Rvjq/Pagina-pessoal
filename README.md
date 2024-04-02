@@ -3,9 +3,9 @@
   <img width="400" height="150" src="src/img/technologieslogo.png">
   
   <h1>
-    Seja bem vindo
+    🚀 Bem Vindos a minha pagina pessoal ⚡
     <br>
-    <b>⚡A minha pagina pessoal⚡</b>
+    Html + Css + Js
   </h1>
   
 </div>
