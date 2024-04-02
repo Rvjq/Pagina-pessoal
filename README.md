@@ -1,6 +1,6 @@
 <div align=center>
   
-  <img width="350" height="150" src="src/img/technologieslogo.png">
+  <img width="500" height="150" src="src/img/technologieslogo.png">
   
   <h1>
     Seja bem vindo
