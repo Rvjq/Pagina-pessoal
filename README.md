@@ -10,7 +10,8 @@
   
 </div>
 
-## ❓ Sobre
+## 📚 Preview by Github pages
+https://rvjq.github.io/Pagina-pessoal/
 
-Minha pagina pessoal em Html Css e um pouco de js
-Preview: https://rvjq.github.io/Pagina-pessoal/
+## ❓ Sobre
+Uma pequena pagina pessoal, feita em Html, Css e um script Js de animção tirado da internet.
