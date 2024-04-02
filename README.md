@@ -1,11 +1,13 @@
 <div align=center>
-  <img src="src/img/technologieslogo.png">
-  <br>
+  
+  <img width="350" height="150" src="src/img/technologieslogo.png">
+  
   <h1>
-    Bem vindos a:
+    Seja bem vindo
     <br>
-    <b>⚡Minha pagina pessoal⚡</b>
+    <b>⚡A minha pagina pessoal⚡</b>
   </h1>
+  
 </div>
 
 ## ❓ Sobre
